@@ -115,6 +115,16 @@
     transform: rotate(360deg);
   }
 }
+@media (max-width: 768px) {
+  .celebrate-img, .cake {
+    width: 90%; /* Full width on smaller screens */
+  }
+  
+  .celebration {
+    flex-direction: column; /* Stack items vertically */
+  }
+}
+
 /* Celebration Layout */
 .celebration {
   display: flex;
